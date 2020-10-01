@@ -1,0 +1,40 @@
+pragma solidity ^0.5.17;
+contract beachshirts {
+     string message;
+     string message2;
+     string message3;
+
+function neworder(int num) public pure returns(int) {
+        return num;
+    }
+    
+    function setMessage(string memory _msg) public {
+        message = _msg;
+    }
+
+     function accepttheorder() public view returns(string memory)  {
+        return message;
+    }
+    function setMessage2(string memory _msg) public {
+        message2 = _msg;
+    }
+
+    function ordercomplet() public view returns(string memory) {
+        return message2;
+    }
+    function communicationcost(int num) public pure returns(int) {
+        return num;
+    }
+     
+    function setMessage3(string memory _msg) public {
+        message3 = _msg;
+    }
+    function paymentdone() public view returns(string memory)  {
+        return message3;
+    }
+    
+    
+    
+    
+}
+
